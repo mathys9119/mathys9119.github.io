@@ -8,6 +8,14 @@ h1{
     text-align: center;
 }
 
+p{
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
+
  /* Bandeau haut */
  header {
      background: #f1f1f1;
@@ -121,6 +129,8 @@ h1{
      gap: 30px;
 
      max-width: 900px;
+
+      margin: 0 auto;
  }
 
 
@@ -160,52 +170,7 @@ h1{
      object-fit: contain;
  }
 
- /* RESPONSIVE */
- @media(max-width:768px) {
 
-     .skills-container {
-         grid-template-columns: repeat(2, 1fr);
-     }
-
- }
-
- @media(max-width:500px) {
-
-     .skills-container {
-         grid-template-columns: 1fr;
-     }
-
- }
-
- /* TEXTE CACHE */
- .skill-text {
-     position: absolute;
-
-     bottom: -100%;
-
-     left: 0;
-
-     width: 100%;
-
-     text-align: center;
-
-     background: rgba(0, 0, 0, 0.7);
-
-     color: white;
-
-     padding: 10px;
-
-     transition: 0.3s;
- }
-
- /* AU SURVOL */
- .skill-card:hover .skill-text {
-     bottom: 0;
- }
-
- .skill-card:hover {
-     transform: scale(1.05);
- }
 
  /* TABLEAU */
 table {

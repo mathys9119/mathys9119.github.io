@@ -201,3 +201,11 @@ table {
 
     text-align:left;
 }
+
+/* Pour la page de veille technologique */
+.veille {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}

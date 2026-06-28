@@ -7,6 +7,12 @@ body {
     align-items: center;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
  /* TITRE */
 h1{
     text-align: center;
@@ -26,6 +32,7 @@ p, .certification {
      text-align: center;
      padding: 12px 0;
      border-bottom: 1px solid #ddd;
+
  }
 
  header h1 {
